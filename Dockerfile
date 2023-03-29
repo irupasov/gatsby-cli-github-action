@@ -11,7 +11,7 @@ LABEL "com.github.actions.icon"="package"
 LABEL "com.github.actions.color"="purple"
 COPY LICENSE README.md THIRD_PARTY_NOTICE.md /
 
-RUN yarn global add gatsby-cli
+RUN npm i -g gatsby-cli
 
 COPY entrypoint.sh /entrypoint.sh
 
